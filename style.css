@@ -1,0 +1,102 @@
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.calculator-grid{
+    margin: auto;
+    width: fit-content;
+    margin-top: 4vh;
+}
+
+.calci-buttons {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  }
+
+  .span-two {
+    grid-column: span 2;
+  }
+
+  .output {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 10vh;
+    font-size: larger;
+    font-weight: 600;
+    border: 1px solid;
+    border-bottom: none;
+  }
+
+  #one{
+    background-image: url(./images/1.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+
+  #two{
+    background-image: url(./images/two.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+
+  #three{
+    background-image: url(./images/three.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+
+  #four{
+    background-image: url(./images/four.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+
+  #five{
+    background-image: url(./images/five.webp);
+    background-size: cover;
+    background-position: right;
+  }
+
+  #six{
+    background-image: url(./images/six.jpeg);
+    background-size: cover;
+    background-position: right;
+  }
+
+  #seven{
+    background-image: url(./images/seven.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+
+  #eight{
+    background-image: url(./images/eight.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #nine{
+    background-image: url(./images/nine.jpg);
+    background-size: 130px;
+    background-position: center;
+  }
+
+  #zero{
+    background-image: url(./images/duck.png);
+    background-size: cover;
+    background-position: right;
+    border: none;
+  }
+  
+  #ops{
+    font-size: larger;
+    font-weight: 600;
+  }
